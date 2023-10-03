@@ -1,0 +1,29 @@
+{
+  "From" : "0.1.1",
+  "To" : "1.0.0",
+  "Hash" : "VFS3UMWtir23PSPUi/URP8TXN/8",
+  "TotalSize" : 24222772,
+  "Entries" : [
+    {
+      "Operation" : 2,
+      "RelativePath" : "Multiplayer Dedicated Server Test_Data/boot.config",
+      "Attributes" : 32,
+      "LastWriting" : "2023-10-03 00:19:08Z",
+      "Size" : 164
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "Multiplayer Dedicated Server Test_Data/data.unity3d",
+      "Attributes" : 32,
+      "LastWriting" : "2023-10-03 00:19:08Z",
+      "Size" : 40459363
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "version.data",
+      "Attributes" : 32,
+      "LastWriting" : "2023-10-03 00:20:00Z",
+      "Size" : 24
+    }
+  ]
+}

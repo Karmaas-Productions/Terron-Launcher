@@ -1,0 +1,10 @@
+[10/3/2023 1:18:06 AM] [INF] [LauncherBase.cs::StartUpdateProcess@121] ===> [Game updating] process STARTED! <===
+[10/3/2023 1:18:07 AM] [ERR] [LauncherBase.cs::CheckForRemoteServiceAvailability@190] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+The remote server returned an error: (403) Forbidden.
+  at System.Net.HttpWebRequest.GetResponseFromData (System.Net.WebResponseStream stream, System.Threading.CancellationToken cancellationToken) [0x00146] in <1726b8fb30b6494e8753e45adcf8a07b>:0 
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <1726b8fb30b6494e8753e45adcf8a07b>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <1726b8fb30b6494e8753e45adcf8a07b>:0 
+  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <1726b8fb30b6494e8753e45adcf8a07b>:0 
+  at MHLab.Patch.Core.Client.IO.PreAuthenticatedWebClient.GetStatusCode (System.Uri address) [0x00016] in <666c39bc5e4d433ca6f934a7d9357cca>:0 
+  at (wrapper remoting-invoke-with-check) MHLab.Patch.Core.Client.IO.PreAuthenticatedWebClient.GetStatusCode(System.Uri)
+  at MHLab.Patch.Core.Client.IO.NetworkChecker.IsRemoteServiceAvailable (System.String url, System.Exception& exception) [0x00026] in <666c39bc5e4d433ca6f934a7d9357cca>:0 
